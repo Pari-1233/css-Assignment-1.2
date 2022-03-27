@@ -1,0 +1,98 @@
+body
+    {
+    background-color:#D8DA3D ;
+    color:#80007E;
+    margin: 0px;
+    }
+    /*content at right side*/
+.para
+    {
+    width: 83%;
+    float: right;
+}
+    
+h1
+    {
+    color:purple;
+    font-family: "Arial";
+    } 
+    /*dotted line*/
+hr
+    {
+
+        border: 1px dotted purple;
+    }
+    /*para in div*/
+div p
+    {
+        font-weight: 50px;
+    }
+
+    /*italic words*/
+.date
+    {
+    font-family: georgia;
+
+    }
+ /* dotted border content*/
+p#dot
+    { 
+    
+    width:850px;
+    border: 2px black dashed;
+    text-align: left;
+    padding:5px;
+    color: black;
+    font-size: 19px;
+    }
+p#dot1
+    {   
+    border: 2px #FF7F00 dashed;
+    text-align: right;
+    font-style: italic;
+    width:850px;
+    color: black;
+    padding:5px;
+    font-size: 19px;
+    }
+p#dot3
+    { 
+    border: 2px dotted#0000FF;
+    width:850px;
+    text-align: center;
+    color: black;
+    font-size: 19px;
+    padding:5px;
+    }
+
+    /*left side content as list*/
+.list
+{
+	list-style: none;
+	height: 100%;
+    width:17%;
+	padding : 20px;	
+    position: fixed;
+}
+.orange
+    {
+    background-color: white;
+    height: 20px;
+    width: 150px;
+    border-right: 15px solid #FF7F00;
+    bottom: 180px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: georgia;
+    }
+.blue
+    {
+    background-color: white;
+    height: 20px;
+    width: 150px;
+    border-right: 15px solid #0000FF;
+    bottom: 170px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: georgia;
+    }
